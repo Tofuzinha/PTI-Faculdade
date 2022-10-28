@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crie seu Evento</title>
+  <link rel="stylesheet" href="style/main.css"/>
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    
+    <header>
+      <h1>
+        PTI
+      </h1>
+      <p>
+        PRODUÇÃO TEXTUAL INTERDISCIPLINAR INDIVIDUAL 
+      </p>
+    </header>
+
+    <form 
+      id="my-form" 
+      action="html/page.html" 
+      target="_blank"
+      method="get"
+      >
+      
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações do Usuario</legend>
+          
+          <div class="input-wrapper">
+            <label for="login">Usuário</label>
+            <input type="text" class="clearx"  id="login" placeholder="Login do usuario" minlength="6" required/>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="password">Senha</span></label>
+            <input type="password" placeholder="Senha do usuario"  id="password" minlength="6" required/>
+          </div>  
+
+        </div>
+      </fieldset>
+
+    </form>
+
+
+    <footer>
+      <button 
+        class="button" 
+        form="my-form"\
+        type="submit"
+        >
+        Enviar
+      </button>
+      <button 
+        class="button" 
+        form="my-form"\
+        type="reset"
+        >
+        Cancelar
+      </button>
+    </footer>
+
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
